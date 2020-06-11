@@ -36,6 +36,28 @@
     height: 20px;
 }
 
+.toggle {
+    display: flex;
+    align-self: flex-end;
+    width: 100%;
+    max-width: 92px;
+
+
+}
+
+.toggle button {
+    background: var(--primary-color);
+    border-radius: 8px;
+    height: 32px;
+    width: 100%;
+    max-width: 92px;
+    border: #2fb86e;
+    color: white;
+    cursor: pointer;
+
+
+}
+
 #page-home main {
     max-width: 560px;
     flex: 1; 
